@@ -5,7 +5,11 @@ public class Main
 
     public static void main(String[] args)
     {
-        Sport example = new Sport();
+        Baseball example = new Baseball();
+        System.out.println("Baseball Finance Info");
+        example.userPrompt();
         System.out.println(example.toString());
+        example.budgetCheck();
+
     }
 }
